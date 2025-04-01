@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "three": "^0.174.0",
+    "vercel": "^41.4.1",
     "vite": "^6.2.3",
     "vite-plugin-restart": "^0.4.2"
   }
