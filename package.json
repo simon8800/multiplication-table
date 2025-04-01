@@ -5,7 +5,8 @@
   "author": "Simon Mei",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "three": "^0.174.0",
