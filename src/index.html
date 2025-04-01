@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Times Table</title>
+</head>
+<body>
+    <div>
+        <h1>Interactive Times Table</h1>
+        <p>The table below is an interactive times table that helps you visualize multiplication.</p>
+        <p>The parts of a multiplication problem include the multiplicand (the number being multiplied), the multipler (the number you are multiplying by), and the product (the result from multiplying the multiplicand by the multipler).</p>
+        <div id="table-container">
+            <table id="multiplication-table">
+                <tr id="multiplication-header-row">
+                </tr>
+            </table>
+			<p id="product"></p>
+        </div>
+    </div>
+    <canvas id="webgl-canvas"></canvas>
+    <script src="./table.js"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
